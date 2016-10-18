@@ -18,13 +18,13 @@ func main() {
 	// Here we send "ping" to the messages channel we made above, from a new goroutine.
 
 	go func() {
-		messages <- "ping"
+		messages <- "ping" // send value into a channel
 	}()
 
 	// The <- channel syntax receives a value from the channel.
 	// Here we’ll receive the "ping" message we sent above and print it out.
 
-	msg := <-messages
+	msg := <-messages // receive value from a channel
 	fmt.Println(msg)
 
 	// When we run the program the "ping" message is successfully passed
