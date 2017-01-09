@@ -7,7 +7,7 @@ func main() {
 
 	// make(map[key-type]val-type)
 
-	m := make(map[string]int)
+	m := make(map[string]int) // equivalent of python dict in a way
 
 	m["val1"] = 45
 	m["val2"] = 90
