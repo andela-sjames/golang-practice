@@ -11,6 +11,9 @@ func main() {
 	sum := plusplus(3, 4, 5)
 	fmt.Println("sum: ", sum)
 
+	timesNum := makemultiple(4, 5)
+	fmt.Println("multiplied value: ", timesNum)
+
 }
 
 func sum(a int, b int) int {
@@ -19,4 +22,8 @@ func sum(a int, b int) int {
 
 func plusplus(a, b, c int) int {
 	return a + b + c
+}
+
+func makemultiple(a, b int) int {
+	return a * b
 }

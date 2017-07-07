@@ -5,9 +5,9 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("here we discuss golang range... Am I missing something")
+	fmt.Println("here we discuss golang range... Am I missing something?")
 
-	// sum of numbers in an array
+	// sum of numbers in a slice, arrays works like this too.
 	nums := []int{2, 3, 4}
 	sum := 0
 	for _, val := range nums {
