@@ -1,5 +1,6 @@
 // reference: http://jordanorelli.com/post/32665860244/how-to-use-interfaces-in-go
 
+// Interfaces are named collections of method signatures.
 package main
 
 import (

@@ -37,6 +37,10 @@ func zeroval(ival int) {
 // to the current value at that address.
 // Assigning a value to a dereferenced pointer changes the value at the referenced address.
 
+// further note:: When you want to access the data/value in the memory that the pointer points to -
+// the contents of the address with that numerical index - then you dereference the pointer.
+
+// here iprt is of type integer pointer
 func zeroptr(iprt *int) {
 	*iprt = 0
 }
