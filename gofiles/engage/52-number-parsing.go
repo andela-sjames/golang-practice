@@ -3,10 +3,13 @@
 
 package main
 
+import (
+	"fmt"
+	"strconv"
+)
+
 // The built-in package `strconv` provides the number
 // parsing.
-import "strconv"
-import "fmt"
 
 func main() {
 
