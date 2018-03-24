@@ -14,6 +14,9 @@ func main() {
 	timesNum := makemultiple(4, 5)
 	fmt.Println("multiplied value: ", timesNum)
 
+	divideNums := dividenum(4, 3)
+	fmt.Println("Divided value: ", divideNums)
+
 }
 
 func sum(a int, b int) int {
@@ -26,4 +29,8 @@ func plusplus(a, b, c int) int {
 
 func makemultiple(a, b int) int {
 	return a * b
+}
+
+func dividenum(a, b float64) float64 {
+	return a/b
 }
