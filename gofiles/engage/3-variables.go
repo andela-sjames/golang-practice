@@ -23,6 +23,7 @@ func main() {
 	fmt.Println(d)
 
 	// Variables declared without a corresponding initialization are zero-valued.
+	// 0 for ints, 0.0 for floats, "" for strings, nil for pointers, …) We can also use the new function:
 	// For example, the zero value for an int is 0.
 	var e int
 	fmt.Println(e)

@@ -8,7 +8,7 @@ import (
 )
 
 func main () {
-    notebook := &notesApplication{author:"Samuel James",}
+    notebook := notesApplication{author:"Samuel James",}
     notebook.create("This is my first note")
     notebook.create("This is my second note")
     notebook.create("This is my third note")
